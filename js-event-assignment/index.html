@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Elements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JS Event Handling & Interactive Elements</h1>
+
+  <!-- Event handling section -->
+  <section>
+    <h2>Event Handling</h2>
+    <button id="clickButton">Click me!</button>
+    <div id="hoverBox">Hover Over Me</div>
+    <input id="keyPressInput" type="text" placeholder="Type something...">
+    <button id="secretButton">Double Click Me!</button>
+  </section>
+
+  <!-- Interactive elements section -->
+  <section>
+    <h2>Interactive Elements</h2>
+    <button id="colorChangeButton">Change My Color</button>
+    <div id="imageGallery">
+      <img id="galleryImage" src="https://picsum.photos/seed/pic0/150" alt="Gallery Image">
+      <div class="gallery-buttons">
+        <button id="prevImage">Previous</button>
+        <button id="nextImage">Next</button>
+      </div>
+    </div>
+    <div id="accordion">
+      <button class="accordion-header">Section 1</button>
+      <div class="accordion-content">Content for section 1</div>
+      <button class="accordion-header">Section 2</button>
+      <div class="accordion-content">Content for section 2</div>
+    </div>
+  </section>
+
+  <!-- Form validation section -->
+  <section>
+    <h2>Form Validation</h2>
+    <form id="validationForm">
+      <label>Email:
+        <input type="email" id="emailInput" placeholder="Enter Your Email" required>
+      </label>
+      <label>Password:
+        <input type="password" id="passwordInput" minlength="8" placeholder="Enter Your Password" required>
+      </label>
+      <button type="submit">Submit</button>
+      <div id="formFeedback"></div>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
